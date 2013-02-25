@@ -1,5 +1,8 @@
 require "credit_card_validator/version"
 
 module CreditCardValidator
-  # Your code goes here...
+
+  def self.validate(number)
+  end
+
 end
