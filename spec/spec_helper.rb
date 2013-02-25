@@ -4,6 +4,15 @@
 # loaded once.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
+require 'credit_card_validator'
+require 'credit_card_validator/payment_method'
+require 'credit_card_validator/payment_method/credit_card'
+require 'credit_card_validator/payment_method/amex'
+require 'credit_card_validator/payment_method/discover'
+require 'credit_card_validator/payment_method/master_card'
+require 'credit_card_validator/payment_method/visa'
+
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true
   config.run_all_when_everything_filtered = true
