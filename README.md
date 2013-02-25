@@ -17,17 +17,17 @@ For the following credit cards:
 
 Expect:
 
-VISA: 4111111111111111       (valid)
-VISA: 4111111111111          (invalid)
-VISA: 4012888888881881       (valid)
-AMEX: 378282246310005        (valid)
-Discover: 6011111111111117   (valid)
-MasterCard: 5105105105105100 (valid)
-MasterCard: 5105105105105106 (invalid)
-Unknown: 9111111111111111    (invalid)
+VISA: 4111111111111111       (valid) <br/>
+VISA: 4111111111111          (invalid) <br/>
+VISA: 4012888888881881       (valid) <br/>
+AMEX: 378282246310005        (valid) <br/>
+Discover: 6011111111111117   (valid) <br/>
+MasterCard: 5105105105105100 (valid) <br/>
+MasterCard: 5105105105105106 (invalid) <br/>
+Unknown: 9111111111111111    (invalid) <br/>
 
 
 ### To run credit card number validator:
 
 1. Clone and Navigate to this project's root dir and then run
-2. ./validate \<credit card number\>
+2. ./validate  &lt;credit-card-number &gt;
