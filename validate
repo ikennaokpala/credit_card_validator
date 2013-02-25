@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+
+require_relative 'lib/credit_card_validator'
+
+def red_alert message
+  "\033[31m #{message} \033[0m\n"
+end
+
+credit_card_numbers = ARGV.join
+
+if credit_card_numbers.empty?
+  puts red_alert :"Please provide a credit card number for validation! "
+  exit 1
+end
+
+puts CreditCardValidator.validate(credit_card_numbers)
