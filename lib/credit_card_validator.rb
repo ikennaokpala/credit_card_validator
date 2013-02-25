@@ -1,11 +1,11 @@
-require "credit_card_validator/version"
+require_relative "credit_card_validator/version"
 
-require 'credit_card_validator/payment_method'
-require 'credit_card_validator/payment_method/credit_card'
-require 'credit_card_validator/payment_method/amex'
-require 'credit_card_validator/payment_method/discover'
-require 'credit_card_validator/payment_method/master_card'
-require 'credit_card_validator/payment_method/visa'
+require_relative 'credit_card_validator/payment_method'
+require_relative 'credit_card_validator/payment_method/credit_card'
+require_relative 'credit_card_validator/payment_method/amex'
+require_relative 'credit_card_validator/payment_method/discover'
+require_relative 'credit_card_validator/payment_method/master_card'
+require_relative 'credit_card_validator/payment_method/visa'
 
 module CreditCardValidator
 
